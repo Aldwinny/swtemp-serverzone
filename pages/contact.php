@@ -1,11 +1,15 @@
 <?php
 include_once $_SERVER['DOCUMENT_ROOT'] . '/shared/Helmet.php';
+include_once $_SERVER['DOCUMENT_ROOT'] . '/shared/Navbar.php';
+
 echo helmet();
 ?>
 
 <body>
 
-    <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/shared/Navbar.php'; ?>
+    <?php
+    echo navbar(3)
+    ?>
 
     <div id="content" class="container">
         <nav aria-label="breadcrumb">

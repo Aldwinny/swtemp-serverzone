@@ -10,12 +10,14 @@
 
 
 <?php
-include_once __DIR__ . '/shared/Helmet.php';
+include_once $_SERVER['DOCUMENT_ROOT'] . '/shared/Navbar.php';
+include_once $_SERVER['DOCUMENT_ROOT'] . '/shared/Helmet.php';
+
 echo helmet();
 ?>
 
 <body>
-    <?php include_once  __DIR__ . '/shared/Navbar.php'; ?>
+    <?php echo navbar(1) ?>
 
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">

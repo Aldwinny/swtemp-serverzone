@@ -1,12 +1,14 @@
 <?php
-include $_SERVER['DOCUMENT_ROOT'] . "/services/connection.php";
+include_once $_SERVER['DOCUMENT_ROOT'] . "/services/connection.php";
 include_once $_SERVER['DOCUMENT_ROOT'] . '/shared/Helmet.php';
+include_once $_SERVER['DOCUMENT_ROOT'] . '/shared/Navbar.php';
+
 echo helmet();
 ?>
 
 <body>
 
-    <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/shared/Navbar.php' ?>
+    <?php echo navbar(5) ?>
 
     <div class="container">
         <div class="col-lg-4">
