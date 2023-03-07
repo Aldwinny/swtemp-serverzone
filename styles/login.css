@@ -1,0 +1,159 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+
+
+}
+.bg-img
+{
+    background: url(/images/background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.content
+{
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    bottom: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 500px;
+    height: 700px;
+    z-index: 999;
+    text-align: center;
+    padding: 60px 32px;
+    background: rgba(255, 255, 255, 0.205);
+    border-radius:  20px;
+
+}
+.content header
+{
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0 0 35px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.field span
+{
+    color: #222;
+    width: 40px;
+    line-height: 45px;
+
+}
+.field
+{
+    position: relative;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    background: rgba(255, 255, 255,0.94);
+}
+.field input
+{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #222;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.show
+{
+    position: absolute;
+    right: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    color: #222;
+    display: none;
+}
+.password:valid ~ .show
+{
+    display: block;
+}
+.space
+{
+    margin-top: 16px;
+
+}
+input[type="submit"]
+{
+    background: #3498db;
+    border: 1px solid #2691d960;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+input[type="submit"]:hover
+{
+    background: #2691d9;
+}
+.login
+{
+    color: #fff;
+    margin: 25px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+.link
+{
+    display: flex;
+    cursor: pointer;
+    color: white;
+    margin: 0 0 20px 0;
+}
+.facebook
+{
+
+    width: 70%;
+    height: 42px;
+    line-height: 45px;
+    margin-top: 10px;
+    margin-left: 65px;
+    margin-right: 65px;
+    background-color: #3498db;
+    border: 1px solid #3e61a8;
+    border-radius: 25px
+}
+.link span
+{
+    font-size: 15px;
+    margin-left: 10px;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.signup
+{
+    margin-top: 30px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+}
+.signup a
+{
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: underline;
+}
+.signup a:hover
+{
+    text-decoration: underline;
+    color: black;
+}

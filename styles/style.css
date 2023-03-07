@@ -1,0 +1,400 @@
+body {
+    position: relative;
+    font-size: 14px;
+    line-height: 1.4285743;
+    color: #333333;
+    background: #f0f0f0;
+    overflow-x: hidden;
+}
+
+/**** Top Style Start *****/
+
+#Top {
+    background: #23BFFB;
+    padding: 10px 0;
+}
+
+
+#Top .contact {
+    color: #000000;
+}
+
+#Top .contact p {
+    display: inline;
+    position: relative;
+}
+
+#Top p + p:before {
+    content: "|\00a0";
+    color: #000000;
+    padding: 0 5px;
+}
+
+@media(max-width: 991px) {
+    #Top .contact {
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width: 991px) {
+    #Top {
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+#Top a {
+    color: #000000;
+}
+
+#Top ul.menu {
+    margin: 0px;
+    text-align: right;
+    font-size: 12px;
+    list-style: none;
+}
+
+@media(max-width: 991px) {
+    #Top ul.menu {
+        text-align: center;
+    }
+}
+
+#Top ul.menu > li {
+    display: inline-block;
+}
+
+#Top ul.menu > li + li:before {
+    content: "|\00a0";
+    color: #000000;
+    padding: 0 5px;
+}
+
+/**** Top Style End *****/
+
+
+/**** Navbar Style Start ****/
+.navbar .navbar-nav .active {
+    transform: scale(1.1);
+    border-bottom: solid 1px #ffffff;
+}
+
+.navbar {
+    background: #000000;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, .3);
+}
+
+.navbar-brand img {
+    width: 60px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    width: 20px;
+    color: #ffffff;
+}
+
+.navbar .navbar-nav .left {
+    float: left;
+}
+
+.navbar .navbar-nav .nav-item {
+    margin: 10px;
+}
+
+.navbar .navbar-nav .nav-item:hover {
+    border-bottom: solid 1px #ffffff;
+    transition: ease-in-out .2s;
+    transform: scale(1.1);
+}
+
+.navbar .navbar-nav .nav-item a {
+    color: #ffffff;
+
+}
+
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+}
+
+/**** Navbar Style End ****/
+
+
+/**** Carousel Style Start ****/
+.overlay-image1 {
+    background-image: url(background.jpg);
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.carousel-caption {
+    font-style: italic;
+    top: 0;
+    bottom: 0;
+    margin-top: 8rem;
+}
+
+.carousel-caption .Company-Name {
+    color: #ff815c;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 72px;
+
+}
+
+.carousel-caption .Company-Name p {
+    color: #FFFFFF;
+    font-style: italic;
+    text-transform: uppercase;
+
+}
+
+/**** Carousel Style End ****/
+
+
+#hot .box {
+    background-color: #23BFFB;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, .2);
+}
+
+#hot h2 {
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+/**** Footer Style Start ****/
+
+#footer {
+    background: #000000;
+    padding: 20px 0;
+}
+
+#footer h4 {
+    color: #81796D;
+}
+
+#footer p {
+    color: #707070;
+}
+
+#footer a {
+    color: #FFFFFF;
+    padding: 0;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    color: #666666;
+}
+
+#footer ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#footer .social {
+    text-align: left;
+}
+
+#footer .social a {
+    margin: 0px 10px 0px 0px;
+    display: inline-block;
+    color: #FFFFFF;
+    width: 2em;
+    height: 2em;
+    border-radius: 15px;
+    line-height: 2em;
+    font-size: 1em;
+    text-align: center;
+    vertical-align: bottom;
+    background: #9e1515;
+    text-decoration: none;
+}
+
+#footer .social a:hover {
+    color: #dedede;
+    background: #ffa600;
+}
+
+/* copyright */
+
+#copyright {
+    background: #23BFFB;
+    color: #707070;
+    padding: 10px 0px;
+    font-size: 12px;
+}
+
+#copyright ul > li a {
+    color: #000000;
+}
+
+#copyright ul > li {
+    display: inline-block;
+    margin-top: 1.2em;
+
+}
+
+#copyright ul > li + li:before {
+    content: "|\00a0";
+    color: #000000;
+    padding: 0 5px;
+}
+
+#copyright p {
+    margin: 15px;
+    color: #ffffff;
+}
+
+/**** Best Seller Style Starts ****/
+
+#content .card img {
+    height: 20rem;
+}
+
+#content .card img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: ease-in-out .5s;
+}
+
+#menu .card img {
+    height: 20rem;
+}
+
+#menu .card .card-body {
+    text-align: center;
+    color: black;
+    font-style: italic;
+}
+
+#menu .card .card-body h5 {
+    font-size: 40px;
+}
+
+#menu .card img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: ease-in-out .5s;
+}
+
+#product .card img {
+    height: 15rem;
+}
+
+#product .card .button {
+    text-align: center;
+    clear: both;
+}
+
+#product .card .button {
+    margin-bottom: 1em;
+}
+
+#product .card .btn-primary {
+    background-color: #ffa600;
+    color: #FFFFFF;
+    border: none;
+}
+
+.breadcrumb {
+    margin-top: 20px;
+    background-color: #23BFFB;
+}
+
+.breadcrumb ol li {
+    color: #ffffff;
+}
+
+/**** Produst Detail Style Starts ****/
+
+.overlay-image-product {
+    background-image: url(Hawaiian%20Pizza.jpg);
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+* cart style */
+#content #cart .box{
+    background: none;
+}
+#content #cart .box p{
+    color: #707070;
+}
+#content #cart .box h3,
+#content #cart .box h1{
+    color: #707070;
+}
+#content #order-summary{
+    margin-top: 30px;
+}
+#content #order-summary h3{
+    color: #707070;
+}
+#content #order-summary .table tbody{
+    color: #000000;
+}
+#content #order-summary .table tr.total td,#content #order-summary .table tr.total th{
+    font-size: 18px;
+    color: #000000;
+    font-weight: 700;
+}
+#content #cart .table tbody tr td img{
+    width: 50px;
+}
+#content #cart .table tbody tr td input{
+    width: 40px;
+    text-align: right;
+}
+#content #cart .table tbody tr td{
+    vertical-align: middle;
+}
+#content #cart .table .tfoot{
+    font-size: 18px;
+}
+
+.box .box-footer{
+    background-color: #f7f7f7;
+    margin: 30px -20px 20px;
+    padding: 20px;
+    border-top: 1px solid #eeeeee;
+}
+.box .box-footer:before,
+.box .box-footer:after{
+    content: "";
+    display: table;
+}
+.box .box-footer:after{
+    clear: both;
+}
+@media(max-width: 991px){
+    .box .box-footer .btn{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+    .box .box-footer i{
+    color: #c3c3c3;
+}
+}
+
+.box .box-header{
+    background-color: #23BFFB;
+    margin: -20px -20px 20px;
+    padding: 20px;
+    border-top: 1px solid #eeeeee;
+}
