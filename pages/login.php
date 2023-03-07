@@ -21,8 +21,8 @@
      }
      ?>
  <?php
-     include_once $_SERVER['DOCUMENT_ROOT'] . '/shared/Helmet.php';
-     echo helmet();
+     include_once $_SERVER['DOCUMENT_ROOT'] . '/shared/general.php';
+     html_header();
      ?>
 
  <body>
@@ -50,6 +50,7 @@
                 </div>
            </div>
       </div>
+      <?php html_footer() ?>
  </body>
 
  </html>

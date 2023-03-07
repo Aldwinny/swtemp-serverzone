@@ -48,9 +48,9 @@
                     <li class="nav-item"><a href="contact.php" class="nav-link">Contact Us</a></li>
                     <li class="nav-item"><a href="about.php" class="nav-link">About Us</a></li>
                     <li class="nav-item"><a href="file.php" class="nav-link">Maintenance</a></li>
-					
-					
-					
+
+
+
                 </ul>
                 <a style="color: #ffffff;" href="cart.php" class="btn navbar-btn right  hidden-xs">
 
@@ -90,7 +90,7 @@
             <div class="col mb-4">
                 <div class="box">
                     <h1 class="text-left">Nvidia RTX 3070</h1>
-                                   <p>The GeForce RTX™ 3070 is powered by Ampere—NVIDIA’s 2nd gen RTX architecture. Built with enhanced Ray Tracing Cores and Tensor Cores, new streaming multiprocessors, and high-speed G6 memory, it gives you the power you need to rip through the most demanding games.</p>
+                    <p>The GeForce RTX™ 3070 is powered by Ampere—NVIDIA's 2nd gen RTX architecture. Built with enhanced Ray Tracing Cores and Tensor Cores, new streaming multiprocessors, and high-speed G6 memory, it gives you the power you need to rip through the most demanding games.</p>
 
                     <p style="color: #9e1515; font-size: 32px;font-weight: 400px;">PHP 39,990.00</p>
                     <form action="Nvidia RTX 3070 details.php" class="form-horizontal" method="post">
@@ -102,7 +102,7 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            
+
                             <div class="form-group">
                                 <label for="" class="col-md-6 control-label">Order Description <font style="color:red;">*optional</font></label>
 
@@ -154,7 +154,7 @@
                     <ul>
 
 
-                         <li>
+                        <li>
                             <a href="">Motherboard</a>
                         </li>
                         <li>
@@ -166,7 +166,7 @@
                         <li>
                             <a href="">Memory</a>
                         </li>
-						<li>
+                        <li>
                             <a href="">Storages</a>
                         </li>
 

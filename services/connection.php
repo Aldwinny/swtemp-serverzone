@@ -1,3 +1,8 @@
 <?php
-// $link=mysqli_connect("localhost","root", "") or die(mysqli_error($link));
-// mysqli_select_db($link, "php_connection")or die(mysqli_error($link)) ;
+$dbhost = "127.0.0.1";
+$dbuser = "root";
+$dbpassword = "";
+$db = "server_zone";
+
+$connection = mysqli_connect($dbhost, $dbuser, $dbpassword, $db);
+mysqli_select_db($connection, $db) or die(mysqli_error($connection));

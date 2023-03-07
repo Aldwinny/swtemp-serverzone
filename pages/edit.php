@@ -1,4 +1,5 @@
 <?php
+// TODO: THIS FEELS LIKE IT BELONGS TO SERVICES FOLDER???
 include "connection.php";
 $id = $_GET["id"];
 
@@ -17,12 +18,11 @@ while ($row = mysqli_fetch_array($res)) {
   $image = $row["image"];
 }
 
-include_once $_SERVER['DOCUMENT_ROOT'] . '/shared/Helmet.php';
-echo helmet();
+include_once $_SERVER['DOCUMENT_ROOT'] . '/shared/general.php';
+html_header();
 ?>
 
 <body>
-
   <div class="container">
     <div class="col-lg-4">
       <h2>Basic Database Connection</h2>
