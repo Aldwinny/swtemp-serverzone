@@ -1,64 +1,11 @@
-<!DOCTYPE HTML>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale-1">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="font-awsome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Server Zone</title>
-</head>
+<?php
+include_once $_SERVER['DOCUMENT_ROOT'] . '/shared/Helmet.php';
+echo helmet();
+?>
 
 <body>
 
-    <div id="Top">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 contact">
-                    <p class="Text-Muted"><i class="fa fa-phone"></i> +63 912 345 6789</p>
-                    <p class="Text-Muted"><i class="fa fa-envelope"></i> ServerZone@gmail.com</p>
-                </div>
-                <div class="col-md-6">
-                    <ul class="menu">
-                        <li><a href="">Register</a></li>
-                        <li><a href="login.php">Login</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="navbar" class="navbar navbar-expand-lg">
-        <div class="container">
-            <div class="navbar-header">
-                <a href="" class="navbar-brand">
-                    <img src="images/Logo.png" alt="Server Zone Logo" class="hidden-xs">
-                </a>
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-
-                <ul class="navbar-nav">
-
-                    <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="menu.php" class="nav-link">Menu</a></li>
-                    <li class="nav-item active"><a href="contact.php" class="nav-link">Contact Us</a></li>
-                    <li class="nav-item"><a href="about.php" class="nav-link">About Us</a></li>
-		          <li class="nav-item"><a href="file.php" class="nav-link">Maintenance</a></li>
-                </ul>
-                <a style="color: #ffffff;" href="cart.php" class="btn navbar-btn right  hidden-xs">
-
-                    <i class="fa fa-shopping-cart"></i>
-                    <span class="badge">5</span>
-
-                </a>
-            </div>
-
-        </div>
-    </div>
+    <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/shared/Navbar.php'; ?>
 
     <div id="content" class="container">
         <nav aria-label="breadcrumb">
@@ -68,9 +15,9 @@
             </ol>
         </nav>
 
-   
 
-    <div class="col mb-4">
+
+        <div class="col mb-4">
 
 
             <div class="box-header">
@@ -109,7 +56,7 @@
                     </div>
 
                     <div class="text-center">
-                        <button type="submit" name="submit"  style="background-color: #589b37;color: #ffffff;" class="btn">
+                        <button type="submit" name="submit" style="background-color: #589b37;color: #ffffff;" class="btn">
                             <i class="fa fa-user-md"></i> Send Message</button>
                     </div>
                 </form>
@@ -119,7 +66,7 @@
         </div>
 
     </div>
-    
+
     <div id="footer">
         <div class="container">
             <div class="row">
@@ -167,7 +114,7 @@
                         <li>
                             <a href="">Memory</a>
                         </li>
-						<li>
+                        <li>
                             <a href="">Storages</a>
                         </li>
 

@@ -1,64 +1,10 @@
-<!DOCTYPE HTML>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale-1">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="font-awsome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Server Zone</title>
-</head>
+<?php
+include_once $_SERVER['DOCUMENT_ROOT'] . '/shared/Helmet.php';
+echo helmet();
+?>
 
 <body>
-
-    <div id="Top">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 contact">
-                    <p class="Text-Muted"><i class="fa fa-phone"></i> +63 912 345 6789</p>
-                    <p class="Text-Muted"><i class="fa fa-envelope"></i> ServerZone@gmail.com</p>
-                </div>
-                <div class="col-md-6">
-                    <ul class="menu">
-                        <li><a href="">Register</a></li>
-                        <li><a href="login.php">Login</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="navbar" class="navbar navbar-expand-lg">
-        <div class="container">
-            <div class="navbar-header">
-                <a href="" class="navbar-brand">
-                    <img src="images/Logo.png" alt="Server Zone Logo" class="hidden-xs">
-                </a>
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-
-                <ul class="navbar-nav">
-
-                    <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="menu.php" class="nav-link">Menu</a></li>
-                    <li class="nav-item"><a href="contact.php" class="nav-link">Contact Us</a></li>
-                    <li class="nav-item active"><a href="about.php" class="nav-link">About Us</a></li>
-		         <li class="nav-item"><a href="file.php" class="nav-link">Maintenance</a></li>
-                </ul>
-                <a style="color: #ffffff;" href="cart.php" class="btn navbar-btn right  hidden-xs">
-
-                    <i class="fa fa-shopping-cart"></i>
-                    <span class="badge">5</span>
-
-                </a>
-            </div>
-
-        </div>
-    </div>
+    <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/shared/Navbar.php'; ?>
 
     <div id="content" class="container">
         <nav aria-label="breadcrumb">
@@ -91,8 +37,8 @@
                         <div class="card-body text-center">
                             <h5 class="card-title" style="color: #ffa600;font-size: 32px;">Server Zone</h5>
                             <p class="card-text">Server Zone originated as a small company, it was built on December 09, 2006. It is owned by the BSIT students of T.I.P. in the Philippines. The company was bought by six BSIT students in 2006. The Server Zone is about 15 years old, it is not older than the other business company. This company provides the customers with the latest computer parts that they can buy from the market and to satisfy the needs of the customers.</p>
-							<p> Our company seeks out high quality computer components, maintains the strictest quality standards in the industry, and has an unshakable commitment to lift up the technology industry in our country. Our goal is to bring quality products to bring out the innate potential of our customers.</p>
-							<p> We created a website that sells computer components through online. This will help the customers build their system units and dream computer  sets which can be used for various uses like work, academics, entertainment, and more. Because of the ongoing pandemic, people are not allowed to go outside of their house, so we decided to make a website through online in an easy and convenient way.  As years goes by our company continues to grow and be recognized all over the country and even around the world.</p>
+                            <p> Our company seeks out high quality computer components, maintains the strictest quality standards in the industry, and has an unshakable commitment to lift up the technology industry in our country. Our goal is to bring quality products to bring out the innate potential of our customers.</p>
+                            <p> We created a website that sells computer components through online. This will help the customers build their system units and dream computer sets which can be used for various uses like work, academics, entertainment, and more. Because of the ongoing pandemic, people are not allowed to go outside of their house, so we decided to make a website through online in an easy and convenient way. As years goes by our company continues to grow and be recognized all over the country and even around the world.</p>
 
                         </div>
                     </div>
@@ -118,17 +64,17 @@
                             <img src="team/team-2.jpg" class="card-img-top" alt="Brian Jacob Bautista">
                             <div class="card-body">
                                 <h5 class="card-title">Brian Jacob Bautista
-                                 
+
                                 </h5>
                                 <p class="card-text">
-								I am Brian Jacob Bautista. I am <span class="badge badge-info"> 20 years old </span>turning <span class="badge badge-info">21 this October</span>. I am currently living in <span class="badge badge-info">Fairview QC, but originally I'm from Pasig</span>. Most of my time is spent on work, school and sleep, but when I get extra time I enjoy watching any good movie, and or playing video games.
+                                    I am Brian Jacob Bautista. I am <span class="badge badge-info"> 20 years old </span>turning <span class="badge badge-info">21 this October</span>. I am currently living in <span class="badge badge-info">Fairview QC, but originally I'm from Pasig</span>. Most of my time is spent on work, school and sleep, but when I get extra time I enjoy watching any good movie, and or playing video games.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="col mb-4">
                         <div class="card best-seller3">
-                            <img src="team/team-3.jpg" class="card-img-top" alt="Jon Benhur Celestino"> 
+                            <img src="team/team-3.jpg" class="card-img-top" alt="Jon Benhur Celestino">
                             <div class="card-body">
                                 <h5 class="card-title">Jon Benhur Celestino <span class="badge badge-info">20 Y/O!</span> <span class="badge badge-info">July 4, 2001</span> <span class="badge badge-info">Antipolo City</span>
                                 </h5>
@@ -137,7 +83,7 @@
                             </div>
                         </div>
                     </div>
-					<div class="col mb-4">
+                    <div class="col mb-4">
                         <div class="card best-seller3">
                             <img src="team/team-4.jpg" class="card-img-top" alt="Dianne Erika B. Clemente">
                             <div class="card-body">
@@ -148,7 +94,7 @@
                             </div>
                         </div>
                     </div>
-					<div class="col mb-4">
+                    <div class="col mb-4">
                         <div class="card best-seller3">
                             <img src="team/team-5.jpg" class="card-img-top" alt="John Benedict Mauro">
                             <div class="card-body">
@@ -163,9 +109,9 @@
                         <div class="card best-seller4">
                             <img src="team/team-6.jpg" class="card-img-top" alt="Miguel Santos">
                             <div class="card-body">
-                                <h5 class="card-title">Miguel Santos  <span class="badge badge-info">20 Y/O</span> <span class="badge badge-info">San Mateo Rizal</span>
+                                <h5 class="card-title">Miguel Santos <span class="badge badge-info">20 Y/O</span> <span class="badge badge-info">San Mateo Rizal</span>
                                 </h5>
-                                <p class="card-text">I’m Miguel Santos 20 years old I live at San Mateo Rizal, currently studying my college at TIP QC . I love watching anime and marvel movies, Also I played video games like league of legends and genshin impact., I also  love to spend my time with my mother because she is very special person for me and inspired me to pursue my dream. . I choose IT because I want to be a game developer someday
+                                <p class="card-text">I’m Miguel Santos 20 years old I live at San Mateo Rizal, currently studying my college at TIP QC . I love watching anime and marvel movies, Also I played video games like league of legends and genshin impact., I also love to spend my time with my mother because she is very special person for me and inspired me to pursue my dream. . I choose IT because I want to be a game developer someday
                                 </p>
                             </div>
                         </div>
@@ -209,7 +155,7 @@
                     <ul>
 
 
-                         <li>
+                        <li>
                             <a href="">Motherboard</a>
                         </li>
                         <li>
@@ -221,7 +167,7 @@
                         <li>
                             <a href="">Memory</a>
                         </li>
-						<li>
+                        <li>
                             <a href="">Storages</a>
                         </li>
 

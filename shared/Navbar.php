@@ -21,7 +21,7 @@
         <div class="container">
             <div class="navbar-header">
                 <a href="" class="navbar-brand">
-                    <img src="/assets/images/Logo.png" alt="Server Zone Logo" class="hidden-xs">
+                    <img src="/assets/Logo.png" alt="Server Zone Logo" class="hidden-xs">
                 </a>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-label="Toggle navigation">
